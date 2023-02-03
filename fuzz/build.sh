@@ -2,7 +2,7 @@
 
 set -e
 
-TARGETS="fuzz_tx_parser" #fuzz_bip32_path"
+TARGETS="fuzz_tx_parser fuzz_bip32_path"
 SCRIPTDIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd)"
 BUILDDIR="$SCRIPTDIR/cmake-build-fuzz"
 
